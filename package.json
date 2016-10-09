@@ -2,7 +2,7 @@
   "name": "meetup-validatedmethod",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://pem--.github.io/meetup-validatedmethod/",
+  "homepage": " https://pem--.github.io/meetup-validatedmethod",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
     "eslint": "^3.5.0",
@@ -17,6 +17,7 @@
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-scripts": "^0.6.1",
     "spectacle": "^1.2.5"
   },
   "scripts": {
