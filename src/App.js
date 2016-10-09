@@ -3,21 +3,14 @@ import {
   Deck, Spectacle, Slide, Text
 } from 'spectacle';
 
-import { primary, secondary } from './styles/colors';
-import createTheme from "spectacle/lib/themes/default";
-const theme = createTheme({
-  primary,
-  secondary,
-}, {
-  primary: '-apple-system, Helvetica, Rototo, Arial, sans-serif'
-});
-
-console.log('theme', theme);
+import MeteorLogo from './ui/MeteorLogo/MeteorLogo';
+import { theme } from './theme';
 
 const App = () => (
   <Spectacle theme={theme}>
     <Deck transition={['fade']} progress="pacman">
-      <Slide bgImage="img/stargazers.jpg">
+      <Slide bgImage="img/stargazers.jpg" bgColor="black" textColor="white">
+        <MeteorLogo />
         <Text>1st slide</Text>
       </Slide>
       <Slide>
