@@ -2,6 +2,7 @@
   "name": "meetup-validatedmethod",
   "version": "0.1.0",
   "private": true,
+  "homepage": " https://pem--.github.io/meetup-validatedmethod/",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
     "eslint": "^3.5.0",
