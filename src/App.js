@@ -3,17 +3,18 @@ import {
   Deck, Spectacle, Slide, Text
 } from 'spectacle';
 
-import MeteorLogo from './ui/MeteorLogo/MeteorLogo';
-import { theme } from './theme';
+import {
+  theme,
+  coverProps,
+  coverContent,
+  defaultSlideProps,
+} from './theme';
 
 const App = () => (
   <Spectacle theme={theme}>
     <Deck transition={['fade']} progress="pacman">
-      <Slide bgImage="img/stargazers.jpg" bgColor="black" textColor="white">
-        <MeteorLogo />
-        <Text>1st slide</Text>
-      </Slide>
-      <Slide>
+      <Slide {...coverProps}>{coverContent({})}</Slide>
+      <Slide {...defaultSlideProps}>
         <Text>2nd slide</Text>
       </Slide>
     </Deck>
