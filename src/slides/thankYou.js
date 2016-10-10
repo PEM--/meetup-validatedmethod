@@ -16,7 +16,7 @@ const ListLink = ({ href, children }) => (
 const githubUrl = (name) => `https://github.com/PEM--/${name}`;
 
 const thankYou = () => [
-  <Heading key='thankYou-1'>Thank you!</Heading>,
+  <Heading key='thankYou-1' caps>Thank you!</Heading>,
   <Appear key='thankYou-2'>
     <List key='thankYou-2'>
       <ListLink href={packageDef.homepage}>This presentation&nbsp;
