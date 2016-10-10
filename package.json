@@ -16,9 +16,11 @@
   },
   "dependencies": {
     "color": "^0.11.3",
+    "font-awesome": "^4.6.3",
     "normalize.css": "^5.0.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-fontawesome": "^1.2.0",
     "react-scripts": "^0.6.1",
     "spectacle": "^1.2.5"
   },

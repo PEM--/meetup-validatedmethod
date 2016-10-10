@@ -1,22 +1,14 @@
 import React from 'react';
-import {
-  Deck, Spectacle, Slide, Text
-} from 'spectacle';
+import { Deck, Spectacle, Slide } from 'spectacle';
+import { theme, coverProps, coverContent, defaultSlideProps } from './theme';
 
-import {
-  theme,
-  coverProps,
-  coverContent,
-  defaultSlideProps,
-} from './theme';
+import aboutMe from './slides/aboutMe';
 
 const App = () => (
   <Spectacle theme={theme}>
     <Deck transition={['fade']} progress="pacman">
-      <Slide {...coverProps}>{coverContent({})}</Slide>
-      <Slide {...defaultSlideProps}>
-        <Text>2nd slide</Text>
-      </Slide>
+      <Slide {...coverProps}>{coverContent({ title: 'ValidatedMethod' })}</Slide>
+      <Slide {...defaultSlideProps}>{aboutMe()}</Slide>
     </Deck>
   </Spectacle>
 );
