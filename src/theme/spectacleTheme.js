@@ -1,11 +1,11 @@
 import createTheme from "spectacle/lib/themes/default";
 const defaultFont = '-apple-system, Helvetica, Rototo, Arial, sans-serif';
 
-const colors = {
+export const colors = {
   primary: '#04102a',
   secondary: 'white',
   tertiary: '#df4f4f',
-  quartenary: 'white',
+  quartenary: '#4d5d81',
 };
 
 const fonts = {
