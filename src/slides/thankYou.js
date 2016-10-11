@@ -5,8 +5,6 @@ import Fontawesome from 'react-fontawesome';
 import { colors } from '../theme';
 import packageDef from '../../package.json';
 
-
-
 const ListLink = ({ href, children }) => (
   <ListItem>
     <Link href={href} target="_blank" textColor={colors.secondary}>{children}</Link>
